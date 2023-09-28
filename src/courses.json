@@ -1,0 +1,24 @@
+{
+    "airtribe": [
+        {
+            "course": "Backend Engineering",
+            "courseId": 2,
+            "cohort": 1,
+            "college": "airtribe launchpad",
+            "semester": 3,
+            "instructor": "Pawan Panjawani",
+            "averageRating": 9.3333333334,
+            "studentsVoted": 3
+        },
+        {
+            "course": "Product Management",
+            "courseId": 3,
+            "cohort": 1,
+            "college": "airtribe launchpad",
+            "semester": 4,
+            "instructor": "Pawan Panjawani",
+            "averageRating": 10,
+            "studentsVoted": 1
+        }
+    ]
+}

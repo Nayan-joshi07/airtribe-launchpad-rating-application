@@ -1,8 +1,13 @@
 var express = require('express');
+const courseData = require('./courses.json');
 const port = 3000;
 var app = express();
 app.get('/', (req, res) => {
     res.status(200).send("Hello World");
+});
+
+app.get('/courses', (req, res) => {
+    res.status(200).json(courseData);
 });
 app.listen(port, (error) => {
     if (error) {
